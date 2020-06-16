@@ -1,0 +1,26 @@
+div{
+    position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+img{
+    width: 25em;
+    height: 20em;
+    float: left;
+    margin: 1.66%;
+    transition: transform 2s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+p{
+    font-family: Raleway;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
